@@ -1,0 +1,27 @@
+{
+  "name": "ddg-images-cli",
+  "version": "1.0.0",
+  "description": "cli for duckduckgo-images-api",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KshitijMhatre/ddg-images-cli.git"
+  },
+  "keywords": [
+    "cli",    
+    "duckduckgo",
+    "image",
+    "image-search"    
+  ],
+  "author": "Kshitij Mhatre (https://github.com/KshitijMhatre)",
+  "license": "MIT",
+  "bin": "./cli.js",
+  "dependencies": {
+    "duckduckgo-images-api": "^1.0.3",
+    "image-downloader": "^3.4.2",
+    "inquirer": "^6.3.1"
+  }
+}
